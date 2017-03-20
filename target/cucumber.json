@@ -1,0 +1,276 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3144760522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FeatureSteps.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Create Coupons - Create New Coupons",
+        "description": "",
+        "id": "create-coupons;create-coupons---create-new-coupons",
+        "after": [
+          {
+            "result": {
+              "duration": 559827234,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FeatureSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2699050348,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "that I\u0027m in \"http://dft-us-carmen.aws.dafitidev.com.br\" url",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://dft-us-carmen.aws.dafitidev.com.br",
+                  "offset": 13
+                }
+              ],
+              "location": "FeatureSteps.that_i_am_at_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 852966684,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I will see \"User authentication\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User authentication",
+                  "offset": 12
+                }
+              ],
+              "location": "FeatureSteps.i_will_see_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1312257752,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I\u0027m authenticating me with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 28
+                },
+                {
+                  "val": "password",
+                  "offset": 43
+                }
+              ],
+              "location": "FeatureSteps.i_am_authenticating_me(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 936396271,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will see \"CAMPAIGN Plataform\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CAMPAIGN Plataform",
+                  "offset": 12
+                }
+              ],
+              "location": "FeatureSteps.i_will_see_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5368972668,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on button \"Create Coupon\" in \"Campaign Plataform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Create Coupon",
+                  "offset": 19
+                },
+                {
+                  "val": "Campaign Plataform",
+                  "offset": 38
+                }
+              ],
+              "location": "FeatureSteps.i_click_on_button_in(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2044088769,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I fill create coupon select box \"Discount type\" with \"Fixed\" value",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Discount type",
+                  "offset": 33
+                },
+                {
+                  "val": "Fixed",
+                  "offset": 54
+                }
+              ],
+              "location": "FeatureSteps.i_fill_create_coupon_select_box_with_value(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827487630,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will see \"Value (R$) *:\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value (R$) *:",
+                  "offset": 12
+                }
+              ],
+              "location": "FeatureSteps.i_will_see_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 962665425,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I fill field \"Discount Value\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Discount Value",
+                  "offset": 14
+                },
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "FeatureSteps.i_fill_field_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 989611447,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I fill field \"Coupon\u0027s name\" with \"Test Coupon 001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Coupon\u0027s name",
+                  "offset": 14
+                },
+                {
+                  "val": "Test Coupon 001",
+                  "offset": 35
+                }
+              ],
+              "location": "FeatureSteps.i_fill_field_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1061328842,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I fill field \"Coupon\u0027s description\" with \"Test Coupon 001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Coupon\u0027s description",
+                  "offset": 14
+                },
+                {
+                  "val": "Test Coupon 001",
+                  "offset": 42
+                }
+              ],
+              "location": "FeatureSteps.i_fill_field_with(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1355966853,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I fill in expiration date with \"From Date\" and \"To Date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "From Date",
+                  "offset": 32
+                },
+                {
+                  "val": "To Date",
+                  "offset": 48
+                }
+              ],
+              "location": "FeatureSteps.i_fill_in_expiration_date(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@vivi"
+          }
+        ]
+      }
+    ],
+    "name": "Create Coupons",
+    "description": "",
+    "id": "create-coupons",
+    "keyword": "Feature",
+    "uri": "features/createCoupons.feature"
+  }
+]

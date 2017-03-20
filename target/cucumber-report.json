@@ -1,0 +1,14 @@
+Feature: Create Coupons
+
+  @vivi
+  Scenario: Create Coupons - Create New Coupons                            [90m# features/createCoupons.feature:3[0m
+    [32mGiven [0m[32mthat I am at "[0m[32m[1mhttp://dft-us-carmen.aws.dafitidev.com.br[0m[32m" url[0m     [90m# FeatureSteps.that_i_am_at_url(String)[0m
+    [32mThen [0m[32mI will see "[0m[32m[1mUser authentication[0m[32m" page[0m                             [90m# FeatureSteps.i_will_see_page(String)[0m
+    [32mAnd [0m[32mI fill field "[0m[32m[1mUser name[0m[32m" with "[0m[32m[1mteste01[0m[32m"[0m                            [90m# FeatureSteps.i_fill_field_with(String,String)[0m
+    [32mAnd [0m[32mI fill field "[0m[32m[1mPassword[0m[32m" with "[0m[32m[1mdafiti@123[0m[32m"[0m                          [90m# FeatureSteps.i_fill_field_with(String,String)[0m
+    [32mAnd [0m[32mI click on button "[0m[32m[1mSign in[0m[32m" in "[0m[32m[1mAuthentication[0m[32m"[0m                    [90m# FeatureSteps.i_click_on_button_in(String,String)[0m
+    [32mAnd [0m[32mI will see "[0m[32m[1mCAMPAIGN Plataform[0m[32m" page[0m                               [90m# FeatureSteps.i_will_see_page(String)[0m
+    [32mAnd [0m[32mI click on button "[0m[32m[1mCreate Coupon[0m[32m" in "[0m[32m[1mCampaign Plataform[0m[32m"[0m          [90m# FeatureSteps.i_click_on_button_in(String,String)[0m
+    [32mAnd [0m[32mI fill create coupon select box "[0m[32m[1mDiscount type[0m[32m" with "[0m[32m[1mFixed[0m[32m" value[0m [90m# FeatureSteps.i_fill_create_coupon_select_box_with_value(String,String)[0m
+    [32mThen [0m[32mI will see "[0m[32m[1mValue (R$) *:[0m[32m" page[0m                                   [90m# FeatureSteps.i_will_see_page(String)[0m
+    [32mAnd [0m[32mI fill field "[0m[32m[1mDiscount Value[0m[32m" with "[0m[32m[1m200[0m[32m"[0m                           [90m# FeatureSteps.i_fill_field_with(String,String)[0m
